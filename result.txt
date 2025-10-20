@@ -2,10 +2,12 @@
 ## Run 1:
 
 ```
-
+I want to tokenize a commercial property worth SAR 50 million on King Fahd Road, Riyadh. 
+The property generates SAR 4 million annual rental income. 
+I need a Shariah-compliant structure.
 ```
 
-
+## Result 1:
 
 ```
 Excellent! 🎉 Your Saudi Lex Insight platform is working!
