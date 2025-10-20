@@ -1,5 +1,6 @@
-# Multi-Agent AI System for Asset Tokenization in Saudi Arabia
+# Saudi Lex Insight - AI Tokenization Platform
 
+**Multi-Agent AI System for Asset Tokenization in Saudi Arabia**
 
 Built with Docker cagent for Almikial Law Firm
 
@@ -53,27 +54,35 @@ Master Coordinator (Qwen 14B)
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/ajeetraina/ai-asset-tokenization
-cd ai-asset-tokenization
+git clone https://github.com/ajeetraina/saudi-lex-insight
+cd saudi-lex-insight
 ```
 
 2. **Pull required models**
 ```bash
 # Large model for complex reasoning (14B parameters)
-docker model pull ai/qwen2.5:14B-Q4_K_M
+docker run --rm ai/qwen2.5:14B-Q4_K_M --pull
 
 # Medium model for specialized tasks (7B parameters)
-docker model pull  ai/mistral:7B-Q4_0 
+docker run --rm ai/mistral:7B-Q4_0 --pull
 
 # Lightweight model for monitoring (3B parameters)
-docker model pull ai/llama3.2:3B-Q8_0 
+docker run --rm ai/llama3.2:3B-Q8_0 --pull
 ```
 
 3. **Start the agent system**
 ```bash
-cagent run cagent.yaml
+docker compose up -d
 ```
 
+4. **Access the platform**
+```bash
+# Check agent status
+docker compose ps
+
+# View logs
+docker compose logs -f root
+```
 
 ---
 
@@ -272,7 +281,7 @@ Based on pilot projects:
 ## 🗂️ Project Structure
 
 ```
-ai-asset-tokenization/
+saudi-lex-insight/
 ├── docker-compose.yml           # Main agent configuration
 ├── .env                         # Environment variables
 ├── README.md                    # This file
@@ -329,7 +338,47 @@ ai-asset-tokenization/
 
 ---
 
+## 📞 Support
 
+### Getting Help
+- 📧 Email: support@almikial.com.sa
+- 💬 Slack: [Join our community](#)
+- 📚 Documentation: [docs.almikial.com](#)
+- 🐛 Issues: [GitHub Issues](https://github.com/ajeetraina/saudi-lex-insight/issues)
+
+### Training & Onboarding
+We provide comprehensive training for:
+- Legal teams
+- Compliance officers
+- Technical staff
+- Business development
+
+Contact: training@almikial.com.sa
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+---
+
+## 📄 License
+
+Copyright © 2025 Almikial Law Firm
+
+Licensed under the Apache License 2.0
+
+---
+
+## 🙏 Acknowledgments
+
+- Docker for cagent framework
+- Anthropic for Claude AI models
+- OpenZeppelin for smart contract libraries
+- Saudi Arabia's Vision 2030 initiative
+
+---
 
 ## 📈 Case Studies
 
