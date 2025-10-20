@@ -59,13 +59,13 @@ cd saudi-lex-insight
 2. **Pull required models**
 ```bash
 # Large model for complex reasoning (14B parameters)
-docker run --rm ai/qwen2.5:14B-Q4_K_M --pull
+docker model pull ai/qwen2.5:14B-Q4_K_M 
 
 # Medium model for specialized tasks (7B parameters)
-docker run --rm ai/mistral:7B-Q4_0 --pull
+docker model pull ai/mistral:7B-Q4_0 
 
 # Lightweight model for monitoring (3B parameters)
-docker run --rm ai/llama3.2:3B-Q8_0 --pull
+docker model pull ai/llama3.2:3B-Q8_0 
 ```
 
 3. **Start the agent system**
@@ -75,11 +75,8 @@ docker compose up -d
 
 4. **Access the platform**
 ```bash
-# Check agent status
-docker compose ps
+cagen run ./cagent-dev.yaml
 
-# View logs
-docker compose logs -f root
 ```
 
 ---
