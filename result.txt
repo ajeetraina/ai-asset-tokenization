@@ -1,22 +1,109 @@
 
 ## Run 1: Single Agent
 
+File: cagent-single.yaml
+
 ```
-I want to tokenize a commercial property worth SAR 50 million on King Fahd Road, Riyadh. 
-The property generates SAR 4 million annual rental income. 
-I need a Shariah-compliant structure.
+Generate an ERC-1400 security token contract for Riyadh Property Token.
+
+Symbol: RPT
+Supply: 50,000
+Features:
+- Transfer restrictions
+- Whitelist for KYC investors
+- Dividend distribution
+- Pausable
+
+Provide the Solidity code.
 ```
 
 ## Result 1:
 
-```
-Excellent! 🎉 Your Saudi Lex Insight platform is working!
-I can see:
 
-✅ Root agent received your request
-✅ Successfully transferred to shariah_agent
-✅ Shariah agent is using the think tool to reason
-✅ Agent is asking for clarification (which is good!)
+Look at what it generated:
 
-The agent wants more details about the structure. Here's what you should type next:
+✅ transfer() function with whitelist restrictions
+✅ distributeDividends() function for profit distribution
+✅ pause() function for emergency control
+✅ Proper access control checks
+
+This is exactly what you need for a security token!
+
+## Run 2:
+
 ```
+Can you complete the full contract? I need:
+1. The contract header with imports
+2. Constructor to initialize the token
+3. Whitelist management functions
+4. Events for all actions
+
+Show me the complete ERC-1400 contract.
+```
+
+---
+
+## 🎯 Other Great Questions to Try
+
+### 1. Shariah Compliance Check
+```
+Is this token structure Shariah compliant?
+
+Features:
+- Quarterly dividend distribution from rental income
+- Variable returns based on actual profits
+- No fixed interest rates
+- Real estate backing
+
+Should I use Mudarabah or Musharakah structure?
+```
+
+### 2. Compliance Requirements
+```
+What are the key SAMA and CMA requirements for launching this token in Saudi Arabia?
+
+Token: RPT (Riyadh Property Token)
+Type: Security token (ERC-1400)
+Investors: Saudi retail and institutional
+Value: SAR 50M
+```
+
+### 3. Token Economics
+```
+Design token economics for:
+
+Property Value: SAR 50M
+Annual Rental Income: SAR 4M
+Total Tokens: 50,000
+Target Investors: 200-500 people
+
+Calculate:
+- Price per token
+- Expected annual return
+- Minimum investment
+- Quarterly distribution amount
+```
+
+### 4. Legal Structure
+
+```
+What legal entity structure should I use for tokenizing real estate in Saudi Arabia?
+
+Should I use:
+- SPV (Special Purpose Vehicle)
+- Trust structure
+- Direct ownership
+
+Explain the pros and cons of each.
+```
+Result 2:
+
+🎉 EXCELLENT! The contract is generating beautifully!Look at the quality code you're getting:
+✅ mint() function - With proper validations
+✅ burn() function - Token burning capability
+✅ Events - TransferRestrictions, WhitelistForKycInvestors, DividendDistribution
+✅ Token counter - Increment/decrement tracking
+✅ Error handling - Clear validation messages
+✅ Array management - Proper balance tracking
+
+
