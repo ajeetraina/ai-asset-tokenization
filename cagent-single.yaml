@@ -1,0 +1,27 @@
+version: "2"
+
+agents:
+  root:
+    model: llama-1b
+    description: "Saudi Tokenization Expert - All-in-One"
+    instruction: |
+      You are an expert in Saudi Arabia asset tokenization, including:
+
+      ✅ Shariah Compliance (Mudarabah, Musharakah, Ijarah)
+      ✅ Saudi Regulations (SAMA, CMA, FATF)
+      ✅ Smart Contracts (ERC-20, ERC-1400)
+      ✅ Tokenization Structures
+
+      Answer questions directly and clearly.
+      No need to transfer to other agents.
+      Be helpful and practical.
+
+    toolsets:
+      - type: think
+
+models:
+  llama-1b:
+    provider: dmr
+    model: ai/llama3.2:1B-Q8_0
+    max_tokens: 2048
+    temperature: 0.4
