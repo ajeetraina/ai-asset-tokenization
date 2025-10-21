@@ -1,1 +1,175 @@
 
+
+## Run 1: Single Agent
+
+File: cagent-single.yaml
+
+```
+Generate an ERC-1400 security token contract for Riyadh Property Token.
+
+Symbol: RPT
+Supply: 50,000
+Features:
+- Transfer restrictions
+- Whitelist for KYC investors
+- Dividend distribution
+- Pausable
+
+Provide the Solidity code.
+```
+
+## Result 1:
+
+
+Look at what it generated:
+
+✅ transfer() function with whitelist restrictions
+✅ distributeDividends() function for profit distribution
+✅ pause() function for emergency control
+✅ Proper access control checks
+
+This is exactly what you need for a security token!
+
+## Run 2:
+
+```
+Can you complete the full contract? I need:
+1. The contract header with imports
+2. Constructor to initialize the token
+3. Whitelist management functions
+4. Events for all actions
+
+Show me the complete ERC-1400 contract.
+```
+
+---
+
+## 🎯 Other Great Questions to Try
+
+### 1. Shariah Compliance Check
+```
+Is this token structure Shariah compliant?
+
+Features:
+- Quarterly dividend distribution from rental income
+- Variable returns based on actual profits
+- No fixed interest rates
+- Real estate backing
+
+Should I use Mudarabah or Musharakah structure?
+```
+
+### 2. Compliance Requirements
+```
+What are the key SAMA and CMA requirements for launching this token in Saudi Arabia?
+
+Token: RPT (Riyadh Property Token)
+Type: Security token (ERC-1400)
+Investors: Saudi retail and institutional
+Value: SAR 50M
+```
+
+### 3. Token Economics
+```
+Design token economics for:
+
+Property Value: SAR 50M
+Annual Rental Income: SAR 4M
+Total Tokens: 50,000
+Target Investors: 200-500 people
+
+Calculate:
+- Price per token
+- Expected annual return
+- Minimum investment
+- Quarterly distribution amount
+```
+
+### 4. Legal Structure
+
+```
+What legal entity structure should I use for tokenizing real estate in Saudi Arabia?
+
+Should I use:
+- SPV (Special Purpose Vehicle)
+- Trust structure
+- Direct ownership
+
+Explain the pros and cons of each.
+```
+Result 2:
+
+🎉 EXCELLENT! The contract is generating beautifully!Look at the quality code you're getting:
+✅ mint() function - With proper validations
+✅ burn() function - Token burning capability
+✅ Events - TransferRestrictions, WhitelistForKycInvestors, DividendDistribution
+✅ Token counter - Increment/decrement tracking
+✅ Error handling - Clear validation messages
+✅ Array management - Proper balance tracking
+
+
+## Run 3: Get the complete contract
+
+```
+Show me the complete contract from the beginning including:
+1. SPDX license and pragma
+2. Import statements (OpenZeppelin)
+3. Contract declaration
+4. State variables
+5. Constructor
+6. All functions we discussed
+
+Make it ready to compile.
+```
+
+---
+
+## 🎯 What's Next?
+
+### Option 1: Save and Use This Code
+```
+Can you provide the complete contract in a single code block that I can save as RiyadhPropertyToken.sol?
+```
+
+### Option 2: Add More Features
+```
+Add these additional features to the contract:
+1. Emergency withdrawal function
+2. Multi-signature approval for critical operations
+3. Time-locked transfers
+4. Voting mechanism for token holders
+```
+
+### Option 3: Test Shariah Compliance
+```
+Review this contract for Shariah compliance:
+- Does the dividend distribution avoid riba?
+- Is the profit-sharing mechanism compliant?
+- What changes are needed for full Islamic finance compliance?
+```
+
+### Option 4:Generate the complete RiyadhPropertyToken.sol contract ready to compile.
+
+Requirements:
+- ERC-1400 security token standard
+- Symbol: RPT
+- Supply: 50,000 tokens
+- Features: whitelist, transfer restrictions, dividend distribution, pausable
+- OpenZeppelin imports
+- Proper constructor
+- All necessary functions
+- Events and modifiers
+- SAMA/CMA compliant structure
+
+Provide the full contract from pragma to closing brace.
+```
+
+### Result:
+
+
+🎉 PERFECT! It's generating beautifully!The fresh session fixed the context issue. Look at the quality structure:✅ Proper imports - OpenZeppelin ERC1400
+✅ Events defined - Transfer, Whitelist, Dividend events
+✅ State variables - balances, tokenOwners mappings
+✅ Clean structure - Professional layout
+
+
